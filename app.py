@@ -12,7 +12,7 @@ def index():
         if response.status_code == 200:
             fact = response.text
         else:
-            fact = "Sorry, I couldn't retrieve the fact."
+            fact = "sorry  machuuu....."
 
     return render_template('index.html', fact=fact)
 
